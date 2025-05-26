@@ -21,6 +21,60 @@ _Tools: Python, Docker, PostgreSQL, Kibana, Airflow_
 
 ---
 
+### 🔹 AISeeYou – AI-Powered X-Ray Object Detection (2025)
+
+**Introduction**  
+Introducing **"AISeeYou"** – an AI-powered application designed to quickly and accurately detect suspicious objects from X-ray scans. By using AISeeYou, potential smuggling of weapons or hazardous materials can be identified early, significantly reducing crime rates and security threats. This solution strengthens security systems and enhances public safety with high efficiency.
+
+---
+
+**Problem Background**  
+Luggage inspection using X-ray scanners has become an essential part of security protocols in many locations, such as airports, government buildings, and major event venues. The primary objective is to ensure that no dangerous or prohibited items are carried into these areas.
+
+However, interpreting X-ray images can be challenging, as items of different materials and shapes may appear similar. To address this, AI-based computer vision technology is now used to assist in automatically identifying potentially hazardous objects. This anomaly detection system accelerates inspections and enhances safety across various public spaces.
+
+---
+
+**Objectives**  
+- **X-ray Object Detection**: Recognize and locate objects within an image using bounding boxes and classification. In X-ray baggage scans, this enables automatic identification of dangerous items, improving screening efficiency and reducing reliance on manual inspection.
+
+- **Label Distribution Analysis**:  
+  Based on percentage distribution:
+  - **Class 4: Swiss Army Knife** – 23.1%  
+  - **Class 1: Unidentified Object** – 22.5%  
+  - Other classes: **Cutter**, **Scissor**, **Knife**
+
+  Dataset obtained from Kaggle. Note: Class 1 appears to have mislabeling; it is referred to as *Unidentified Object* to reflect uncertainty.
+
+---
+
+**Demo**  
+- **YOLOv8 Model**:  
+  Visit the deployed application to access real-time predictions. On the Streamlit dashboard, navigate to the **X-ray Detection Prediction** page to view object detection results.
+
+- **Faster R-CNN w/ResNet50**:  
+  Download the pre-trained model from the [Google Drive link](#), extract it, and place it in the root folder of the repository. You may also train your own model by following the guide in the TensorFlow `README.md`.
+
+---
+
+**Conclusion**  
+The model successfully detects dangerous objects in X-ray images. Using Ultralytics evaluation, it achieved a performance score of **>80% mAP@0.5**, indicating strong predictive accuracy. This provides a solid foundation for continued development.
+
+---
+
+**Further Recommendations**  
+- **Increase Dataset Size**: Enhances generalization and reduces overfitting.  
+- **Data Augmentation**: Introduce variability via rotation, scaling, flipping, etc., for robustness.  
+- **Fine-Tuning**: Adapt pre-trained models to X-ray-specific datasets for better accuracy.  
+- **Experiment with Model Architectures**: Consider models like **EfficientDet** or **Faster R-CNN** to optimize for speed, accuracy, and resource usage.
+
+---
+
+**Tools & Technologies**  
+- Python, OpenCV, YOLOv8, Streamlit, TensorFlow, Hugging Face Spaces
+
+---
+
 ### 🔹 [Problem Category Analysis and Resolution Time – Jakarta, Indonesia (March 2025)](https://github.com/angga7353/Analisis_Tiketing_IT_HELPDESK)
 **Objective**: Analyze helpdesk ticket patterns to uncover delay causes  
 **Role**: Data Analyst  
