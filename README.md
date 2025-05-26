@@ -21,7 +21,7 @@ _Tools: Python, Docker, PostgreSQL, Kibana, Airflow_
 
 ---
 
-### 🔹 AISeeYou – AI-Powered X-Ray Object Detection (2025)
+### 🔹 [AISeeYou – AI-Powered X-Ray Object Detection - Jakarta, Indonesia (May 2025)](https://github.com/FTDS-assignment-bay/p2-final-project-ftds-hck-026)
 
 **Overview**  
 AISeeYou is an AI-powered application designed to detect suspicious objects from X-ray scans quickly and accurately. It aims to enhance security screening by automating the identification of hazardous items such as knives, scissors, and Swiss Army knives using computer vision models.
