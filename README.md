@@ -9,7 +9,7 @@ IT professional with 3 years of experience in managing end-user IT support syste
 - **Frameworks & Platforms**: Streamlit, Docker, Apache Airflow, Great Expectations
 
 ## 📂 Portfolio Projects
-### 🔹 [Problem Category Analysis and Resolution Time – Jakarta, Indonesia (March 2025)]()
+### 🔹 [\[Problem Category Analysis and Resolution Time – Jakarta, Indonesia (March 2025)\]()](https://github.com/angga7353/Analisis_Tiketing_IT_HELPDESK)
 **Objective**: Analyze helpdesk ticket patterns to uncover delay causes  
 **Role**: Data Analyst  
 **Highlights**:
